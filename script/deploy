@@ -1,0 +1,8 @@
+#!/bin/sh
+ 
+ssh app@139.59.15.54 <<EOF
+  cd ~/Test
+  git pull
+  npm install --production
+  exit
+EOF
