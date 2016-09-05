@@ -3,6 +3,6 @@ var app = require('../app.js');
  
 describe('GET /', function() {
   it('respond with hello world', function(done) {
-    request(app).get('/').expect('Hello Jenkins Users', done);
+    request(app).get('/').expect('Hello Jenkins CICD Users', done);
   });
 });
