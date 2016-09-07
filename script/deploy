@@ -1,8 +1,7 @@
 #!/bin/sh
  
-ssh ubuntu@54.166.102.194 <<EOF
-  sudo su app
-  cd ~/Test1
+ssh ubuntu@54.174.102.91 <<EOF
+  cd ~/Test
   git pull
   npm install --production
   forever restartall
