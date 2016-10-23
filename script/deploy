@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh ubuntu@54.174.102.91 <<EOF
+ssh ubuntu@54.152.38.39 <<EOF
   cd ~/Test
   git pull
   npm install --production
